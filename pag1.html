@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one {
+            width: 800px;
+            background-color: antiquewhite;
+            padding: 5px;
+            justify-content: space-between;
+            display: flex;
+
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .two {
+            display: flex;
+            justify-content: space-between;
+            width: 800px;
+            margin-top: 100px;
+        }
+
+        .three {
+            display: flex;
+            position: absolute;
+
+        }
+
+        .hand1 {
+            margin-top: -200px;
+            padding: 2px;
+            background-color: red;
+            height: fit-content;
+        }
+
+        .hand2 {
+            margin-top: -200px;
+            margin-left: 247px;
+            background-color: red;
+            height: fit-content;
+        }
+
+        .hand3 {
+            margin-top: -200px;
+            margin-left: 250px;
+            background-color: red;
+            height: fit-content;
+        }
+
+        @media screen and (max-width:480px) {
+            .one {
+                height: 40px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+
+            }
+
+            .two {
+                height: 200px;
+                display: flex;
+                flex-direction: column;
+
+            }
+
+            .three {
+                display: flex;
+                flex-direction: column;
+
+
+            }
+
+            .hand1 {
+                width: fit-content;
+
+            }
+
+            .hand2 {
+                margin-left: 0;
+                margin-top: 82px;
+                width: fit-content;
+            }
+
+            .hand3 {
+                margin-left: 0;
+                margin-top: 87px;
+            }
+            .four{
+                margin-top: 250px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <div class="one">
+            <a href="home">Home</a><a href="about">About</a><a href="contact">contact</a>
+        </div>
+
+    </nav>
+    <div class="two">
+        <img src="./lights.jpg" width="200" height="200">
+        <img src="./lights.jpg" width="200" height="200">
+        <img src="./lights.jpg" width="200" height="200">
+
+    </div>
+    <div class="three">
+        <h2 class="hand1">hello</h2>
+        <h2 class="hand2">hello</h2>
+        <h2 class="hand3">hello</h2>
+
+    </div>
+    <div class="four">
+        <h1>Hello everyone!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, officiis consequuntur beatae unde consectetur
+        atque quae omnis, temporibus iure, laudantium in facere. Nulla, suscipit alias? Aperiam ex dolores vel
+        asperiores!</p>
+        </div>
+</body>
+
+</html>
